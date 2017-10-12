@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A132DE4A1F8FF8F6003AADAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A132DE491F8FF8F6003AADAE /* main.m */; };
+		A132DE4D1F8FF8F6003AADAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A132DE4C1F8FF8F6003AADAE /* AppDelegate.m */; };
+		A132DE501F8FF8F6003AADAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A132DE4F1F8FF8F6003AADAE /* ViewController.m */; };
+		A132DE531F8FF8F6003AADAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A132DE511F8FF8F6003AADAE /* Main.storyboard */; };
+		A132DE551F8FF8F6003AADAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A132DE541F8FF8F6003AADAE /* Assets.xcassets */; };
+		A132DE581F8FF8F6003AADAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A132DE561F8FF8F6003AADAE /* LaunchScreen.storyboard */; };
+		A132DE631F8FF8F6003AADAE /* PrivateATMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A132DE621F8FF8F6003AADAE /* PrivateATMTests.m */; };
+		A132DE6E1F8FF8F6003AADAE /* PrivateATMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A132DE6D1F8FF8F6003AADAE /* PrivateATMUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A132DE5F1F8FF8F6003AADAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A132DE3D1F8FF8F6003AADAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A132DE441F8FF8F6003AADAE;
+			remoteInfo = PrivateATM;
+		};
+		A132DE6A1F8FF8F6003AADAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A132DE3D1F8FF8F6003AADAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A132DE441F8FF8F6003AADAE;
+			remoteInfo = PrivateATM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A132DE451F8FF8F6003AADAE /* PrivateATM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivateATM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A132DE491F8FF8F6003AADAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A132DE4B1F8FF8F6003AADAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A132DE4C1F8FF8F6003AADAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A132DE4E1F8FF8F6003AADAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A132DE4F1F8FF8F6003AADAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A132DE521F8FF8F6003AADAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A132DE541F8FF8F6003AADAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A132DE571F8FF8F6003AADAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A132DE591F8FF8F6003AADAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A132DE5E1F8FF8F6003AADAE /* PrivateATMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivateATMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A132DE621F8FF8F6003AADAE /* PrivateATMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivateATMTests.m; sourceTree = "<group>"; };
+		A132DE641F8FF8F6003AADAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A132DE691F8FF8F6003AADAE /* PrivateATMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivateATMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A132DE6D1F8FF8F6003AADAE /* PrivateATMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivateATMUITests.m; sourceTree = "<group>"; };
+		A132DE6F1F8FF8F6003AADAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A132DE421F8FF8F6003AADAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A132DE5B1F8FF8F6003AADAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A132DE661F8FF8F6003AADAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A132DE3C1F8FF8F6003AADAE = {
+			isa = PBXGroup;
+			children = (
+				A132DE471F8FF8F6003AADAE /* PrivateATM */,
+				A132DE611F8FF8F6003AADAE /* PrivateATMTests */,
+				A132DE6C1F8FF8F6003AADAE /* PrivateATMUITests */,
+				A132DE461F8FF8F6003AADAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A132DE461F8FF8F6003AADAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A132DE451F8FF8F6003AADAE /* PrivateATM.app */,
+				A132DE5E1F8FF8F6003AADAE /* PrivateATMTests.xctest */,
+				A132DE691F8FF8F6003AADAE /* PrivateATMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A132DE471F8FF8F6003AADAE /* PrivateATM */ = {
+			isa = PBXGroup;
+			children = (
+				A132DE4B1F8FF8F6003AADAE /* AppDelegate.h */,
+				A132DE4C1F8FF8F6003AADAE /* AppDelegate.m */,
+				A132DE4E1F8FF8F6003AADAE /* ViewController.h */,
+				A132DE4F1F8FF8F6003AADAE /* ViewController.m */,
+				A132DE511F8FF8F6003AADAE /* Main.storyboard */,
+				A132DE541F8FF8F6003AADAE /* Assets.xcassets */,
+				A132DE561F8FF8F6003AADAE /* LaunchScreen.storyboard */,
+				A132DE591F8FF8F6003AADAE /* Info.plist */,
+				A132DE481F8FF8F6003AADAE /* Supporting Files */,
+			);
+			path = PrivateATM;
+			sourceTree = "<group>";
+		};
+		A132DE481F8FF8F6003AADAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A132DE491F8FF8F6003AADAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A132DE611F8FF8F6003AADAE /* PrivateATMTests */ = {
+			isa = PBXGroup;
+			children = (
+				A132DE621F8FF8F6003AADAE /* PrivateATMTests.m */,
+				A132DE641F8FF8F6003AADAE /* Info.plist */,
+			);
+			path = PrivateATMTests;
+			sourceTree = "<group>";
+		};
+		A132DE6C1F8FF8F6003AADAE /* PrivateATMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A132DE6D1F8FF8F6003AADAE /* PrivateATMUITests.m */,
+				A132DE6F1F8FF8F6003AADAE /* Info.plist */,
+			);
+			path = PrivateATMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A132DE441F8FF8F6003AADAE /* PrivateATM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A132DE721F8FF8F6003AADAE /* Build configuration list for PBXNativeTarget "PrivateATM" */;
+			buildPhases = (
+				A132DE411F8FF8F6003AADAE /* Sources */,
+				A132DE421F8FF8F6003AADAE /* Frameworks */,
+				A132DE431F8FF8F6003AADAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrivateATM;
+			productName = PrivateATM;
+			productReference = A132DE451F8FF8F6003AADAE /* PrivateATM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A132DE5D1F8FF8F6003AADAE /* PrivateATMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A132DE751F8FF8F6003AADAE /* Build configuration list for PBXNativeTarget "PrivateATMTests" */;
+			buildPhases = (
+				A132DE5A1F8FF8F6003AADAE /* Sources */,
+				A132DE5B1F8FF8F6003AADAE /* Frameworks */,
+				A132DE5C1F8FF8F6003AADAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A132DE601F8FF8F6003AADAE /* PBXTargetDependency */,
+			);
+			name = PrivateATMTests;
+			productName = PrivateATMTests;
+			productReference = A132DE5E1F8FF8F6003AADAE /* PrivateATMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A132DE681F8FF8F6003AADAE /* PrivateATMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A132DE781F8FF8F6003AADAE /* Build configuration list for PBXNativeTarget "PrivateATMUITests" */;
+			buildPhases = (
+				A132DE651F8FF8F6003AADAE /* Sources */,
+				A132DE661F8FF8F6003AADAE /* Frameworks */,
+				A132DE671F8FF8F6003AADAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A132DE6B1F8FF8F6003AADAE /* PBXTargetDependency */,
+			);
+			name = PrivateATMUITests;
+			productName = PrivateATMUITests;
+			productReference = A132DE691F8FF8F6003AADAE /* PrivateATMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A132DE3D1F8FF8F6003AADAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Maxim Ohrimenko";
+				TargetAttributes = {
+					A132DE441F8FF8F6003AADAE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					A132DE5D1F8FF8F6003AADAE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A132DE441F8FF8F6003AADAE;
+					};
+					A132DE681F8FF8F6003AADAE = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A132DE441F8FF8F6003AADAE;
+					};
+				};
+			};
+			buildConfigurationList = A132DE401F8FF8F6003AADAE /* Build configuration list for PBXProject "PrivateATM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A132DE3C1F8FF8F6003AADAE;
+			productRefGroup = A132DE461F8FF8F6003AADAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A132DE441F8FF8F6003AADAE /* PrivateATM */,
+				A132DE5D1F8FF8F6003AADAE /* PrivateATMTests */,
+				A132DE681F8FF8F6003AADAE /* PrivateATMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A132DE431F8FF8F6003AADAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A132DE581F8FF8F6003AADAE /* LaunchScreen.storyboard in Resources */,
+				A132DE551F8FF8F6003AADAE /* Assets.xcassets in Resources */,
+				A132DE531F8FF8F6003AADAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A132DE5C1F8FF8F6003AADAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A132DE671F8FF8F6003AADAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A132DE411F8FF8F6003AADAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A132DE501F8FF8F6003AADAE /* ViewController.m in Sources */,
+				A132DE4D1F8FF8F6003AADAE /* AppDelegate.m in Sources */,
+				A132DE4A1F8FF8F6003AADAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A132DE5A1F8FF8F6003AADAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A132DE631F8FF8F6003AADAE /* PrivateATMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A132DE651F8FF8F6003AADAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A132DE6E1F8FF8F6003AADAE /* PrivateATMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A132DE601F8FF8F6003AADAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A132DE441F8FF8F6003AADAE /* PrivateATM */;
+			targetProxy = A132DE5F1F8FF8F6003AADAE /* PBXContainerItemProxy */;
+		};
+		A132DE6B1F8FF8F6003AADAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A132DE441F8FF8F6003AADAE /* PrivateATM */;
+			targetProxy = A132DE6A1F8FF8F6003AADAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A132DE511F8FF8F6003AADAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A132DE521F8FF8F6003AADAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A132DE561F8FF8F6003AADAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A132DE571F8FF8F6003AADAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A132DE701F8FF8F6003AADAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A132DE711F8FF8F6003AADAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A132DE731F8FF8F6003AADAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrivateATM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OM.PrivateATM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A132DE741F8FF8F6003AADAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrivateATM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OM.PrivateATM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A132DE761F8FF8F6003AADAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrivateATMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OM.PrivateATMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrivateATM.app/PrivateATM";
+			};
+			name = Debug;
+		};
+		A132DE771F8FF8F6003AADAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrivateATMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OM.PrivateATMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrivateATM.app/PrivateATM";
+			};
+			name = Release;
+		};
+		A132DE791F8FF8F6003AADAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrivateATMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OM.PrivateATMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PrivateATM;
+			};
+			name = Debug;
+		};
+		A132DE7A1F8FF8F6003AADAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrivateATMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OM.PrivateATMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PrivateATM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A132DE401F8FF8F6003AADAE /* Build configuration list for PBXProject "PrivateATM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A132DE701F8FF8F6003AADAE /* Debug */,
+				A132DE711F8FF8F6003AADAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A132DE721F8FF8F6003AADAE /* Build configuration list for PBXNativeTarget "PrivateATM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A132DE731F8FF8F6003AADAE /* Debug */,
+				A132DE741F8FF8F6003AADAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A132DE751F8FF8F6003AADAE /* Build configuration list for PBXNativeTarget "PrivateATMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A132DE761F8FF8F6003AADAE /* Debug */,
+				A132DE771F8FF8F6003AADAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A132DE781F8FF8F6003AADAE /* Build configuration list for PBXNativeTarget "PrivateATMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A132DE791F8FF8F6003AADAE /* Debug */,
+				A132DE7A1F8FF8F6003AADAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A132DE3D1F8FF8F6003AADAE /* Project object */;
+}
