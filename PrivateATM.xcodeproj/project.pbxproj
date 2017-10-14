@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		982907758E9B798878708CF5 /* libPods-PrivateATMTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFA6E5BC122865ACC0643A4 /* libPods-PrivateATMTests.a */; };
 		A132DE4A1F8FF8F6003AADAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A132DE491F8FF8F6003AADAE /* main.m */; };
 		A132DE4D1F8FF8F6003AADAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A132DE4C1F8FF8F6003AADAE /* AppDelegate.m */; };
-		A132DE501F8FF8F6003AADAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A132DE4F1F8FF8F6003AADAE /* ViewController.m */; };
 		A132DE531F8FF8F6003AADAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A132DE511F8FF8F6003AADAE /* Main.storyboard */; };
 		A132DE551F8FF8F6003AADAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A132DE541F8FF8F6003AADAE /* Assets.xcassets */; };
 		A132DE581F8FF8F6003AADAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A132DE561F8FF8F6003AADAE /* LaunchScreen.storyboard */; };
 		A132DE631F8FF8F6003AADAE /* PrivateATMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A132DE621F8FF8F6003AADAE /* PrivateATMTests.m */; };
 		A132DE6E1F8FF8F6003AADAE /* PrivateATMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A132DE6D1F8FF8F6003AADAE /* PrivateATMUITests.m */; };
+		A132DE7D1F8FFA45003AADAE /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A132DE7C1F8FFA45003AADAE /* ListViewController.m */; };
+		A132DEA11F903520003AADAE /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A132DEA01F903520003AADAE /* MapViewController.m */; };
+		B7668F38524DB07674DF6172 /* libPods-PrivateATM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6C421798E3C957CA8F315A /* libPods-PrivateATM.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		033A69B7C559175275F9186B /* Pods-PrivateATMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateATMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateATMTests/Pods-PrivateATMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17383C7E0B3B0D9A649EE27F /* Pods-PrivateATM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateATM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateATM/Pods-PrivateATM.debug.xcconfig"; sourceTree = "<group>"; };
+		176307DB1D4374590E02BC01 /* libPods-PrivateATMUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrivateATMUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A132DE451F8FF8F6003AADAE /* PrivateATM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivateATM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A132DE491F8FF8F6003AADAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A132DE4B1F8FF8F6003AADAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A132DE4C1F8FF8F6003AADAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A132DE4E1F8FF8F6003AADAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A132DE4F1F8FF8F6003AADAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A132DE521F8FF8F6003AADAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A132DE541F8FF8F6003AADAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A132DE571F8FF8F6003AADAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,15 @@
 		A132DE691F8FF8F6003AADAE /* PrivateATMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivateATMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A132DE6D1F8FF8F6003AADAE /* PrivateATMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivateATMUITests.m; sourceTree = "<group>"; };
 		A132DE6F1F8FF8F6003AADAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A132DE7B1F8FFA45003AADAE /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		A132DE7C1F8FFA45003AADAE /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		A132DE9F1F903520003AADAE /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		A132DEA01F903520003AADAE /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		A1A02D591F911CE6007BB137 /* PrivateATM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PrivateATM.entitlements; sourceTree = "<group>"; };
+		BC6C421798E3C957CA8F315A /* libPods-PrivateATM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrivateATM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A9DD4BA8FA559872F23C6C /* Pods-PrivateATM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateATM.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateATM/Pods-PrivateATM.release.xcconfig"; sourceTree = "<group>"; };
+		DFFA6E5BC122865ACC0643A4 /* libPods-PrivateATMTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PrivateATMTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07354E177A592AEC0F37EDC /* Pods-PrivateATMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateATMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateATMTests/Pods-PrivateATMTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7668F38524DB07674DF6172 /* libPods-PrivateATM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982907758E9B798878708CF5 /* libPods-PrivateATMTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030741CD12A301E4E096E7DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC6C421798E3C957CA8F315A /* libPods-PrivateATM.a */,
+				DFFA6E5BC122865ACC0643A4 /* libPods-PrivateATMTests.a */,
+				176307DB1D4374590E02BC01 /* libPods-PrivateATMUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A132DE3C1F8FF8F6003AADAE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				A132DE611F8FF8F6003AADAE /* PrivateATMTests */,
 				A132DE6C1F8FF8F6003AADAE /* PrivateATMUITests */,
 				A132DE461F8FF8F6003AADAE /* Products */,
+				BD6A77BC0003D919BBF1B935 /* Pods */,
+				030741CD12A301E4E096E7DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +128,14 @@
 		A132DE471F8FF8F6003AADAE /* PrivateATM */ = {
 			isa = PBXGroup;
 			children = (
+				A1A02D591F911CE6007BB137 /* PrivateATM.entitlements */,
 				A132DE4B1F8FF8F6003AADAE /* AppDelegate.h */,
 				A132DE4C1F8FF8F6003AADAE /* AppDelegate.m */,
-				A132DE4E1F8FF8F6003AADAE /* ViewController.h */,
-				A132DE4F1F8FF8F6003AADAE /* ViewController.m */,
+				A132DE7B1F8FFA45003AADAE /* ListViewController.h */,
+				A132DE7C1F8FFA45003AADAE /* ListViewController.m */,
+				A132DE9F1F903520003AADAE /* MapViewController.h */,
+				A132DEA01F903520003AADAE /* MapViewController.m */,
 				A132DE511F8FF8F6003AADAE /* Main.storyboard */,
-				A132DE541F8FF8F6003AADAE /* Assets.xcassets */,
-				A132DE561F8FF8F6003AADAE /* LaunchScreen.storyboard */,
-				A132DE591F8FF8F6003AADAE /* Info.plist */,
 				A132DE481F8FF8F6003AADAE /* Supporting Files */,
 			);
 			path = PrivateATM;
@@ -117,6 +144,9 @@
 		A132DE481F8FF8F6003AADAE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A132DE541F8FF8F6003AADAE /* Assets.xcassets */,
+				A132DE561F8FF8F6003AADAE /* LaunchScreen.storyboard */,
+				A132DE591F8FF8F6003AADAE /* Info.plist */,
 				A132DE491F8FF8F6003AADAE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +170,17 @@
 			path = PrivateATMUITests;
 			sourceTree = "<group>";
 		};
+		BD6A77BC0003D919BBF1B935 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17383C7E0B3B0D9A649EE27F /* Pods-PrivateATM.debug.xcconfig */,
+				D1A9DD4BA8FA559872F23C6C /* Pods-PrivateATM.release.xcconfig */,
+				033A69B7C559175275F9186B /* Pods-PrivateATMTests.debug.xcconfig */,
+				E07354E177A592AEC0F37EDC /* Pods-PrivateATMTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A132DE721F8FF8F6003AADAE /* Build configuration list for PBXNativeTarget "PrivateATM" */;
 			buildPhases = (
+				122A11987B424C727B3AAF13 /* [CP] Check Pods Manifest.lock */,
 				A132DE411F8FF8F6003AADAE /* Sources */,
 				A132DE421F8FF8F6003AADAE /* Frameworks */,
 				A132DE431F8FF8F6003AADAE /* Resources */,
+				A277F8FDC8016C675F2F2F39 /* [CP] Embed Pods Frameworks */,
+				AA243024421618F7C203E61A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A132DE751F8FF8F6003AADAE /* Build configuration list for PBXNativeTarget "PrivateATMTests" */;
 			buildPhases = (
+				1421E4DCCAC2C3A66A1B6357 /* [CP] Check Pods Manifest.lock */,
 				A132DE5A1F8FF8F6003AADAE /* Sources */,
 				A132DE5B1F8FF8F6003AADAE /* Frameworks */,
 				A132DE5C1F8FF8F6003AADAE /* Resources */,
+				29393D6BDC40DC3CED530C72 /* [CP] Embed Pods Frameworks */,
+				4DBCD026BF1C2EAA9BC10DB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +254,28 @@
 				TargetAttributes = {
 					A132DE441F8FF8F6003AADAE = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 656TBY77Q9;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Siri = {
+								enabled = 0;
+							};
+							com.apple.Wallet = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 					A132DE5D1F8FF8F6003AADAE = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -268,14 +336,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		122A11987B424C727B3AAF13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrivateATM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1421E4DCCAC2C3A66A1B6357 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrivateATMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29393D6BDC40DC3CED530C72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivateATMTests/Pods-PrivateATMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DBCD026BF1C2EAA9BC10DB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PrivateATMTests/Pods-PrivateATMTests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivateATMTests/Pods-PrivateATMTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A277F8FDC8016C675F2F2F39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivateATM/Pods-PrivateATM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA243024421618F7C203E61A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PrivateATM/Pods-PrivateATM-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivateATM/Pods-PrivateATM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A132DE411F8FF8F6003AADAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A132DE501F8FF8F6003AADAE /* ViewController.m in Sources */,
 				A132DE4D1F8FF8F6003AADAE /* AppDelegate.m in Sources */,
 				A132DE4A1F8FF8F6003AADAE /* main.m in Sources */,
+				A132DE7D1F8FFA45003AADAE /* ListViewController.m in Sources */,
+				A132DEA11F903520003AADAE /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +549,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +592,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -424,9 +602,12 @@
 		};
 		A132DE731F8FF8F6003AADAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17383C7E0B3B0D9A649EE27F /* Pods-PrivateATM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 656TBY77Q9;
 				INFOPLIST_FILE = PrivateATM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = OM.PrivateATM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,9 +616,12 @@
 		};
 		A132DE741F8FF8F6003AADAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A9DD4BA8FA559872F23C6C /* Pods-PrivateATM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 656TBY77Q9;
 				INFOPLIST_FILE = PrivateATM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = OM.PrivateATM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,6 +630,7 @@
 		};
 		A132DE761F8FF8F6003AADAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033A69B7C559175275F9186B /* Pods-PrivateATMTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PrivateATMTests/Info.plist;
@@ -458,6 +643,7 @@
 		};
 		A132DE771F8FF8F6003AADAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E07354E177A592AEC0F37EDC /* Pods-PrivateATMTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PrivateATMTests/Info.plist;
@@ -509,6 +695,7 @@
 				A132DE741F8FF8F6003AADAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A132DE751F8FF8F6003AADAE /* Build configuration list for PBXNativeTarget "PrivateATMTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +704,7 @@
 				A132DE771F8FF8F6003AADAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A132DE781F8FF8F6003AADAE /* Build configuration list for PBXNativeTarget "PrivateATMUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +713,7 @@
 				A132DE7A1F8FF8F6003AADAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

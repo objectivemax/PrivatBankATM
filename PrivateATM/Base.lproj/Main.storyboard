@@ -1,26 +1,140 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="v9U-4g-aGb">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--List View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ListViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="gSy-lX-xln">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRIVAT24 ATM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0iA-kP-7gh">
+                                <rect key="frame" x="16" y="129" width="288" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" red="0.18569747362135355" green="0.53686151649746194" blue="0.23550715801386188" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="6" height="8"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jse-FR-DI8">
+                                <rect key="frame" x="16" y="268" width="288" height="39"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <state key="normal" title="Город">
+                                    <color key="titleColor" red="0.1856974736" green="0.53686151650000002" blue="0.23550715799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nameCity:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mS0-gL-qog"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RTd-P7-N4z">
+                                <rect key="frame" x="103" y="315" width="115" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="На карту">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToMaps:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MXP-0A-RNa"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gSy-lX-xln" secondAttribute="trailing" id="4mB-ih-42s"/>
+                            <constraint firstItem="gSy-lX-xln" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="B6J-mo-L1Z"/>
+                            <constraint firstItem="Jse-FR-DI8" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="BYW-lF-7kI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RTd-P7-N4z" secondAttribute="trailing" constant="86" id="Iqn-QL-mZy"/>
+                            <constraint firstItem="0iA-kP-7gh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="NGR-XB-X1d"/>
+                            <constraint firstItem="Jse-FR-DI8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OmZ-7J-0pd"/>
+                            <constraint firstAttribute="trailing" secondItem="gSy-lX-xln" secondAttribute="trailing" id="Xi0-6E-Juv"/>
+                            <constraint firstItem="Jse-FR-DI8" firstAttribute="top" secondItem="0iA-kP-7gh" secondAttribute="bottom" constant="91" id="c3z-9L-pWr"/>
+                            <constraint firstItem="gSy-lX-xln" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cUD-ej-mOo"/>
+                            <constraint firstItem="0iA-kP-7gh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="65" id="e1e-R9-xFU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gSy-lX-xln" secondAttribute="bottom" id="ggm-2Q-ZFt"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RTd-P7-N4z" secondAttribute="bottom" constant="220" id="gyN-tD-irm"/>
+                            <constraint firstItem="gSy-lX-xln" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hiN-Qs-E9U"/>
+                            <constraint firstItem="0iA-kP-7gh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="oAT-Cc-sk1"/>
+                            <constraint firstItem="RTd-P7-N4z" firstAttribute="top" secondItem="Jse-FR-DI8" secondAttribute="bottom" constant="8" id="qBC-mM-NYm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gSy-lX-xln" secondAttribute="bottom" id="saQ-cF-U2Z"/>
+                            <constraint firstItem="RTd-P7-N4z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="87" id="tfy-7T-jTn"/>
+                            <constraint firstItem="gSy-lX-xln" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tq1-wv-qc9"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="fUg-XD-aMJ"/>
+                    <connections>
+                        <outlet property="buttonCity" destination="Jse-FR-DI8" id="3bF-Jf-y4u"/>
+                        <segue destination="8qn-5p-Ih8" kind="push" identifier="goMap" id="mSw-PV-oDE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="549.375" y="-77.112676056338032"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="e3u-mx-aEH">
+            <objects>
+                <viewController id="8qn-5p-Ih8" customClass="MapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xps-LR-0be"/>
+                        <viewControllerLayoutGuide type="bottom" id="fVG-Oc-ycz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QH0-kL-1jG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c7J-dm-tRP">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="c7J-dm-tRP" secondAttribute="trailing" id="Cy7-Fx-f5w"/>
+                            <constraint firstItem="c7J-dm-tRP" firstAttribute="bottom" secondItem="fVG-Oc-ycz" secondAttribute="top" id="Pft-Wn-bnI"/>
+                            <constraint firstItem="c7J-dm-tRP" firstAttribute="leading" secondItem="QH0-kL-1jG" secondAttribute="leading" id="nga-wq-pr8"/>
+                            <constraint firstItem="c7J-dm-tRP" firstAttribute="top" secondItem="xps-LR-0be" secondAttribute="bottom" id="ora-hN-lkx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Bbu-tD-Qge"/>
+                    <connections>
+                        <outlet property="GoogleMapView" destination="c7J-dm-tRP" id="CI7-Y9-ZmR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qXo-FQ-oYv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1430.625" y="-77.112676056338032"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CiE-AP-sEY">
+            <objects>
+                <navigationController id="v9U-4g-aGb" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tiJ-VQ-Xqh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vxY-mz-2hW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TZd-SN-eVH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-334" y="-77"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background" width="1000" height="1160"/>
+    </resources>
 </document>
